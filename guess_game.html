@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Number Guessing Game</title>
+        <script src="script.js"></script>
+        <style>
+            .container {
+                text-align: center;
+            }
+            .game {
+                border: 1px solid black;
+                border-radius: 30%;
+                color: white;
+                padding: 16px 32px;
+                display: inline-block;
+                margin: 4px 2px;
+                background-color: rgb(117, 117, 117);
+            }
+
+            h1 {
+                color: aqua;
+                background: -webkit-linear-gradient();
+            }
+
+            .button {
+                border: 1px hidden black;
+                border-radius: 10%;
+                color: black;
+                padding: 16px 32px;
+                font-size: 16px;
+                margin: 4px 2px;
+                background-color: cyan;
+                box-shadow: 0 4px 8px 0 rgb(66, 66, 66);
+            }
+
+            .start-button {
+                background-color: cyan;
+                color: black;
+                border-radius: 10%;
+            }
+
+            .start-button:hover {
+                background-color: #777;
+                color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="game">
+                <h1>Number Guessing Game</h1>
+                <p>Guess the number<br>between 1 and 10.</p>
+                <p>You have 3 attempts.</p>
+                
+                <button type="button" class="button start-button" onclick="startGame()">Start Game</button>
+            </div>
+        </div>
+    </body>
+</html>
