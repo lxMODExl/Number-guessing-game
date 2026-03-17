@@ -9,7 +9,7 @@ function startGame() {
         
         if (isNaN(guess) || guess < 1 || guess > 10) {
             alert("Please enter a valid number between 1 and 10.");
-            i--; 
+            i--;
             continue;
         }
         
